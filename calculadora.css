@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(51, 48, 48);
+    color: white;
+}
+
+.calculo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30vh;
+}
+
+::placeholder{
+    color: black;
+    text-align: center;
+}
+
+
+.simbolo{
+    margin-left: 12vh;
+}
+
+.simbolosuma{
+    margin-left: 8vh;
+}
+
+.suma{
+    display: flex;
+}
+
+.numero{
+width: 25vh;
+height: 5vh;
+background-color: rgb(153, 153, 153);
+
+}
+
+
+
+.resta{
+    display: flex;
+}
+
+.simboloresta{
+    margin-left: 8vh;
+}
+
+.simbolo-{
+    margin-left: 12vh;
+}
+
+
+
+
+
+.multiplicacion{
+    display: flex;
+}
+
+.simbolomulti{
+    margin-left: 2vh;
+}
+
+
+.simboloX{
+    margin-left: 12vh;
+}
+
+
+
+
+.division{
+    display: flex;
+}
+
+.simbolodiv{
+    margin-left: 7vh;
+}
+
+.simbolo-division{
+    margin-left: 12vh;
+}
+
+.resultado{
+    margin-top: 2vh;
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    border-radius: 10px;
+    margin-left: 7vh;
+}
+
+.resultado:hover{
+    background-color: rgb(211, 55, 55);
+}
+
